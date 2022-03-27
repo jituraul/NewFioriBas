@@ -51,7 +51,7 @@ sap.ui.define([
         //     return oView;
         // },
         destroy: function(){
-
+            UIComponent.prototype.destroy.apply(this, arguments);
         }
     });
 });
